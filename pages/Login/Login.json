@@ -1,0 +1,58 @@
+{
+  "unpublishedPage": {
+    "name": "Login",
+    "slug": "login",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "mobileBottomRow": 840,
+          "widgetName": "MainContainer",
+          "topRow": 0,
+          "bottomRow": 380,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "minHeight": 840,
+          "useAutoLayout": true,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "vertical",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "containerStyle": "none",
+          "snapRows": 82,
+          "version": 87,
+          "mobileTopRow": 0,
+          "responsiveBehavior": "fill",
+          "flexLayers": [
+            {
+              "children": [
+                {
+                  "id": "dw16xngb2h",
+                  "align": "start"
+                }
+              ]
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Login",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": true
+  },
+  "deleted": false,
+  "gitSyncId": "655cbdd483165e6cbfe52685_655cd039ce53854364ee97ad"
+}
