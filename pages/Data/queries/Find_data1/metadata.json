@@ -29,7 +29,7 @@
           }
         },
         "body": {
-          "data": "{\n  \"find\": \"data\",\n  \"filter\": {\"user\": \"{{appsmith.user.username }}\"}\n,\n  \"sort\": {{ Table1.sortOrder.column ? { [Table1.sortOrder.column]: Table1.sortOrder.order !== \"desc\" ? 1 : -1 } : {}}},\n  \"skip\": {{Table1.pageOffset}},\n  \"limit\": {{Table1.pageSize}},\n  \"batchSize\": {{Table1.pageSize}}\n}\n"
+          "data": "{\n  \"find\": \"data\",\n  \"filter\": {\"user\": \"{{appsmith.user.username}}\"},\n  \"sort\": {\"date\": -1},\n  \"skip\": {{Table1.pageOffset}},\n  \"limit\": {{Table1.pageSize}},\n  \"batchSize\": {{Table1.pageSize}}\n}\n"
         },
         "collection": {
           "data": "data"
@@ -124,7 +124,7 @@
       " Table1.sortOrder.column ? { [Table1.sortOrder.column]: Table1.sortOrder.order !== \"desc\" ? 1 : -1 } : {}",
       "Table1.pageOffset",
       "Table1.pageSize",
-      "appsmith.user.username "
+      "appsmith.user.username"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

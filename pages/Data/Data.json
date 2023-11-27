@@ -67,9 +67,9 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 " Table1.sortOrder.column ? { [Table1.sortOrder.column]: Table1.sortOrder.order !== \"desc\" ? 1 : -1 } : {}",
-                "appsmith.user.username ",
                 "Table1.pageSize",
-                "Table1.pageOffset"
+                "Table1.pageOffset",
+                "appsmith.user.username"
               ],
               "timeoutInMillisecond": 10000
             }

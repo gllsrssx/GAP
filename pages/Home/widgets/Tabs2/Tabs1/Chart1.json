@@ -3,6 +3,7 @@
     "mobileBottomRow": 32,
     "widgetName": "Chart1",
     "allowScroll": false,
+    "widthInPercentage": 0.9709821428571429,
     "displayName": "Chart",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.8eea39845729f7f4bfadeecd3810a09d.svg",
     "searchTags": [
@@ -11,7 +12,7 @@
         "visualisations"
     ],
     "topRow": 0,
-    "bottomRow": 32.00000000000001,
+    "bottomRow": 36,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
@@ -53,11 +54,11 @@
     "isLoading": false,
     "mobileTopRow": 0,
     "responsiveBehavior": "fill",
-    "yAxisName": "Revenue($)",
+    "yAxisName": "competence",
     "chartName": "Overview",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
-    "xAxisName": "Product Line",
+    "xAxisName": "score",
     "chartType": "BAR_CHART",
     "alignment": "start"
 }

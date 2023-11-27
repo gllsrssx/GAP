@@ -9,7 +9,7 @@
           "mobileBottomRow": 840,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 840,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -33,7 +33,7 @@
             {
               "children": [
                 {
-                  "id": "dw16xngb2h",
+                  "id": "nj68eguqnm",
                   "align": "start"
                 }
               ]
