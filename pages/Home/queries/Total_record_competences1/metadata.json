@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "Insert_competences1",
+    "name": "Total_record_competences1",
     "datasource": {
       "name": "GAP",
       "pluginId": "mongo-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "MainPage",
+    "pageId": "Home",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,16 +29,22 @@
           "data": "competences"
         },
         "command": {
-          "data": "INSERT"
+          "data": "COUNT"
+        },
+        "count": {
+          "query": {
+            "data": "{{{ competence: {$regex: Table1.searchText} }}}"
+          }
         },
         "delete": {
           "limit": {
             "data": "SINGLE"
           }
         },
-        "insert": {
-          "documents": {
-            "data": "{{(Table1.newRow || {})}}"
+        "misc": {
+          "formToNativeQuery": {
+            "data": "{\n  \"count\": \"competences\",\n  \"query\": {{{ competence: {$regex: Table1.searchText} }}},\n}\n",
+            "status": "SUCCESS"
           }
         },
         "smartSubstitution": {
@@ -51,24 +57,25 @@
         }
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
-        "key": "formData.insert.documents.data"
+        "key": "formData.count.query.data"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(Table1.newRow || {})"
+      "{ competence: {$regex: Table1.searchText} }"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-11-24T15:00:16Z"
   },
-  "id": "MainPage_Insert_competences1",
+  "id": "Home_Total_record_competences1",
   "deleted": false,
-  "gitSyncId": "655cbdd483165e6cbfe52685_6560ba83c8aceb197ed30855"
+  "gitSyncId": "655cbdd483165e6cbfe52685_6560ba800d75e70bd0d90dfb"
 }

@@ -29,7 +29,7 @@
             "mobileBottomRow": 320,
             "widgetName": "Canvas2",
             "displayName": "Canvas",
-            "bottomRow": 340.00000000000006,
+            "bottomRow": 320,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -127,7 +127,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "weh0kml02t",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "defaultTab": "data",
+    "defaultTab": "chart",
     "shouldShowTabs": true,
     "minWidth": 450,
     "tabsObj": {
