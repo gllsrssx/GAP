@@ -15,10 +15,6 @@
     {
       "id": "Login",
       "isDefault": false
-    },
-    {
-      "id": "register",
-      "isDefault": false
     }
   ],
   "viewMode": false,
