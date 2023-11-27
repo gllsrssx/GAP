@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "MainPage",
+    "pageId": "Home",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -136,7 +136,7 @@
     "userPermissions": [],
     "createdAt": "2023-11-24T15:00:16Z"
   },
-  "id": "MainPage_Find_competences1",
+  "id": "Home_Find_competences1",
   "deleted": false,
   "gitSyncId": "655cbdd483165e6cbfe52685_6560ba800d75e70bd0d90dfc"
 }

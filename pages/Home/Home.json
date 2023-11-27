@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "MainPage",
-    "slug": "mainpage",
+    "name": "Home",
+    "slug": "home",
     "layouts": [
       {
         "viewMode": false,
@@ -9,7 +9,7 @@
           "mobileBottomRow": 1292,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 1292,
+          "bottomRow": 432.0000000000001,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -52,7 +52,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "MainPage_get_data",
+              "id": "Home_get_data",
               "name": "get_data",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -64,7 +64,7 @@
           ],
           [
             {
-              "id": "MainPage_Find_competences1",
+              "id": "Home_Find_competences1",
               "name": "Find_competences1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -80,7 +80,7 @@
           ],
           [
             {
-              "id": "MainPage_Total_record_competences1",
+              "id": "Home_Total_record_competences1",
               "name": "Total_record_competences1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -93,7 +93,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "MainPage",
+        "id": "Home",
         "deleted": false,
         "policies": [],
         "userPermissions": []
