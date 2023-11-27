@@ -128,7 +128,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "0k1n6uize5",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "defaultTab": "{{appsmith.store.user.token? 'authenticated':'unauthenticated'}}",
+    "defaultTab": "{{appsmith.store.user?.token? 'authenticated':'unauthenticated'}}",
     "shouldShowTabs": false,
     "minWidth": 450,
     "tabsObj": {
