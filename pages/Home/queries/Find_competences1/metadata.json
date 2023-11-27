@@ -102,7 +102,7 @@
         }
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "formData.find.skip.data"

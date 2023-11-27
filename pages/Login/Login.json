@@ -9,7 +9,7 @@
           "mobileBottomRow": 840,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 840,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -33,27 +33,14 @@
             {
               "children": [
                 {
-                  "id": "o2fz1rli1d",
+                  "id": "nj68eguqnm",
                   "align": "start"
                 }
               ]
             }
           ]
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Login_continue_api_xano",
-              "name": "continue_api_xano",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.URL.queryParams.code"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Login",

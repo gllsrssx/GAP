@@ -15,6 +15,10 @@
     {
       "id": "Login",
       "isDefault": false
+    },
+    {
+      "id": "Welcome",
+      "isDefault": false
     }
   ],
   "viewMode": false,

@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Login",
+    "pageId": "Welcome",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -64,7 +64,7 @@
     "userPermissions": [],
     "createdAt": "2023-11-27T15:23:37Z"
   },
-  "id": "Login_continue_api_xano",
+  "id": "Welcome_continue_api_xano",
   "deleted": false,
   "gitSyncId": "6563a26afd7e68037cee2dc8_6564b47922b1375fef2b9185"
 }
