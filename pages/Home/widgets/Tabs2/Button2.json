@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 14,
     "widgetName": "Button2",
-    "onClick": "{{navigateTo('Login', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{init_api_xano.run().then(() => {\n  navigateTo('Welcome', {}, 'SAME_WINDOW');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
