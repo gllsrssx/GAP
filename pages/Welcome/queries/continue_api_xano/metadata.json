@@ -31,7 +31,7 @@
         },
         {
           "key": "redirect_uri",
-          "value": "https://app.appsmith.com/app/gap/home-655cbdd483165e6cbfe52688"
+          "value": "https://app.appsmith.com/app/gap/welcome-6564bd6137711f07c96ed88f/edit/api/6564b47922b1375fef2b9186"
         }
       ],
       "bodyFormData": [],

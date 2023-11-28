@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 3,
     "widgetName": "Button1",
-    "onClick": "{{(()=>{\nstoreValue('user',undefined);\nnavigateTo('Login');\n})}}",
+    "onClick": "{{(()=>{\nstoreValue('user',undefined);\nnavigateTo('Login');\n})()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 13.875,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 55.351351351351354,
+    "leftColumn": 52.80466472303207,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -37,7 +37,7 @@
     "isVisible": true,
     "recaptchaType": "V3",
     "version": 1,
-    "parentId": "0",
+    "parentId": "utuwcd6mmz",
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,

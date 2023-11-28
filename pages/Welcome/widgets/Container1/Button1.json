@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "Button1",
-    "onClick": "{{(()=>{\nstoreValue('user',continue_api_xano.data);\nnavigateTo('Home');\n})}}",
+    "onClick": "{{(()=>{\nstoreValue('user',continue_api_xano.data);\nnavigateTo('Home');\n})()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 13.671875,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 26.10138248847926,
+    "leftColumn": 26.336283185840706,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -30,7 +30,7 @@
     "isDisabled": false,
     "key": "omhnccja73",
     "isDeprecated": false,
-    "rightColumn": 37.89861751152074,
+    "rightColumn": 37.66371681415929,
     "isDefaultClickDisabled": true,
     "widgetId": "k5qno1xjpz",
     "minWidth": 120,

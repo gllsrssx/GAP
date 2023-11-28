@@ -9,7 +9,7 @@
           "mobileBottomRow": 1292,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 492,
+          "bottomRow": 432,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -31,18 +31,6 @@
           "mobileTopRow": 0,
           "responsiveBehavior": "fill",
           "flexLayers": [
-            {
-              "children": [
-                {
-                  "id": "sbg4zrtk3n",
-                  "align": "start"
-                },
-                {
-                  "id": "9fxy4dz4in",
-                  "align": "start"
-                }
-              ]
-            },
             {
               "children": [
                 {
