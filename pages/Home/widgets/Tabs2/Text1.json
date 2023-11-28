@@ -31,7 +31,7 @@
     "text": "Hello {{appsmith.store.user}}",
     "key": "ln36jroxv7",
     "isDeprecated": false,
-    "rightColumn": 55.351351351351354,
+    "rightColumn": 52.80466472303207,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "sbg4zrtk3n",
@@ -40,7 +40,7 @@
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "0",
+    "parentId": "utuwcd6mmz",
     "tags": [
         "Suggested",
         "Content"

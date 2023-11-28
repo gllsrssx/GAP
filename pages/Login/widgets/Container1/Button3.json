@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 13.59375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 27.586206896551722,
+    "leftColumn": 26.336283185840706,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -29,7 +29,7 @@
     "isDisabled": false,
     "key": "g8dux1wk1d",
     "isDeprecated": false,
-    "rightColumn": 36.41379310344827,
+    "rightColumn": 37.66371681415929,
     "isDefaultClickDisabled": true,
     "widgetId": "fbi3odr15a",
     "minWidth": 120,
