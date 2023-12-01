@@ -72,8 +72,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-26T19:54:18Z"
+    "userPermissions": []
   },
   "id": "Home_Total_record_competences1",
   "deleted": false,

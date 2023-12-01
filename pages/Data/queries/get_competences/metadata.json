@@ -108,8 +108,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-24T11:28:33Z"
+    "userPermissions": []
   },
   "id": "Data_get_competences",
   "deleted": false,

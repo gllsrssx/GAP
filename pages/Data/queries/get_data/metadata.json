@@ -120,8 +120,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-24T11:36:07Z"
+    "userPermissions": []
   },
   "id": "Data_get_data",
   "deleted": false,

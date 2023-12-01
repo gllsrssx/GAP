@@ -129,8 +129,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-24T11:13:28Z"
+    "userPermissions": []
   },
   "id": "Data_Find_data1",
   "deleted": false,
